@@ -1,3 +1,5 @@
+# Printing Receipts with Python - Guide for Windows & EPSON
+
 <sup>04/06/2025</sup>
 
 
