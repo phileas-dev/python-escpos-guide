@@ -7,7 +7,7 @@
 
 ## Introduction
 
-This guide aims to **manipulate EPSON Receipt printers using Python**, and thus **generating custom receipts or tickets** using a specific library. We will be using the `TM-T20` as as example, though this guide should work with **any EPSON machine using an ESC / POS command system**.
+This guide aims to **manipulate EPSON Receipt printers using Python**, and thus **generating custom receipts or tickets** using a specific library. We will be using the `TM-T20` as as example, though this guide should work with **most EPSON printers using an ESC / POS command system**.
 
 ***
 
@@ -41,6 +41,7 @@ In order to establish a communication between Python and the printer, we must :
 
 We will be installing EPSON's Virtual Port Assignment Tool, available through [this link](https://download3.ebz.epson.net/dsc/f/03/00/16/59/59/37c78fb33341c071dbfc05bdbe456ca853037eaf/TMVirtualPortDriver870c.zip).
 If the link doesn't work, we can check the [complete software list for the TM-T20](https://support.epson.net/setupnavi/?PINF=swlist&OSC=WS&LG2=EN&MKN=TM-T20).
+For other models, check [this listing](https://support.epson.net/setupnavi/?PINF=category&OSC=WS&LG2=EN&GROUP=pos_product), find your corresponding model, and find the virtual port tool in the software list (if it exists).
 
 Once the tool is installed and opened, we will **assign a port to our printer** (COM5 for example), like in the image below (Select a free port -> Assign Port -> TM-T20 with USB -> OK)
 
