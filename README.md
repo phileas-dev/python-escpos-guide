@@ -133,10 +133,10 @@ If everything goes well, we should obtain a receipt like this :
 
 ## Resources and Links
 
-[python-escpos documentation](https://python-escpos.readthedocs.io/en/latest/)
-[python-escpos repository](https://github.com/python-escpos/python-escpos)
-[Zadig, a tool for replacing Windows drivers to libusb](https://zadig.akeo.ie/)
-[libusb for Windows](https://sourceforge.net/projects/libusb/)
+- [python-escpos documentation](https://python-escpos.readthedocs.io/en/latest/)
+- [python-escpos repository](https://github.com/python-escpos/python-escpos)
+- [Zadig, a tool for replacing Windows drivers to libusb](https://zadig.akeo.ie/)
+- [libusb for Windows](https://sourceforge.net/projects/libusb/)
 
 
 **If the Python commands aren't being recognised by the temrinal**, we can follow these steps :
