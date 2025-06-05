@@ -21,7 +21,7 @@ We will first make sure that the machine is **working properly** :
 
 We will then open the **Device Manager**, where we should find the `TM-T20` (or any target model) listed among the USB peripherals, thus confirming that the machine is recognised by Windows.
 
-![[Pasted image 20250604153600.png]]
+![[https://raw.githubusercontent.com/phileas-dev/python-escpos-guide/refs/heads/main/DEVICEMANAGER.png]]
 
 
 ***
@@ -44,9 +44,9 @@ If the link doesn't work, we can check the [complete software list for the TM-T2
 
 Once the tool is installed and opened, we will **assign a port to our printer** (COM5 for example), like in the image below (Select a free port -> Assign Port -> TM-T20 with USB -> OK)
 
-![[Pasted image 20250604141038.png]]
+![[https://raw.githubusercontent.com/phileas-dev/python-escpos-guide/refs/heads/main/VPAT1.png]]
 
-![[Pasted image 20250604142256.png]]
+![[https://raw.githubusercontent.com/phileas-dev/python-escpos-guide/refs/heads/main/VPAT2.png]]
 
 > We can also print a test receipt using `Test Print` to make sure the virtual port is behaving normally.
 
@@ -85,7 +85,7 @@ pip install pyserial
 
 **We open the Python IDLE** that was automatically installed alongside Python (or any other IDE) :
 
-![[Pasted image 20250604111746.png]]
+![[https://raw.githubusercontent.com/phileas-dev/python-escpos-guide/refs/heads/main/IDLEpng]]
 
 We create an **empty file** with `Ctrl + N`, in which we write a little test script as following :
 
