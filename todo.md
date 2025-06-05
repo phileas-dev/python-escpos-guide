@@ -1,0 +1,1 @@
+- include the libusb connection method using Zadig and a libusb fork
