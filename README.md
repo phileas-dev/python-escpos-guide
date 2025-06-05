@@ -21,7 +21,7 @@ We will first make sure that the machine is **working properly** :
 
 We will then open the **Device Manager**, where we should find the `TM-T20` (or any target model) listed among the USB peripherals, thus confirming that the machine is recognised by Windows.
 
-![[https://raw.githubusercontent.com/phileas-dev/python-escpos-guide/refs/heads/main/DEVICEMANAGER.png]]
+![device manager](https://raw.githubusercontent.com/phileas-dev/python-escpos-guide/refs/heads/main/DEVICEMANAGER.png)
 
 
 ***
@@ -44,9 +44,9 @@ If the link doesn't work, we can check the [complete software list for the TM-T2
 
 Once the tool is installed and opened, we will **assign a port to our printer** (COM5 for example), like in the image below (Select a free port -> Assign Port -> TM-T20 with USB -> OK)
 
-![[https://raw.githubusercontent.com/phileas-dev/python-escpos-guide/refs/heads/main/VPAT1.png]]
+![virtual port assignment tool 1](https://raw.githubusercontent.com/phileas-dev/python-escpos-guide/refs/heads/main/VPAT1.png)
 
-![[https://raw.githubusercontent.com/phileas-dev/python-escpos-guide/refs/heads/main/VPAT2.png]]
+![virtual port assignment tool 2](https://raw.githubusercontent.com/phileas-dev/python-escpos-guide/refs/heads/main/VPAT2.png)
 
 > We can also print a test receipt using `Test Print` to make sure the virtual port is behaving normally.
 
@@ -85,7 +85,7 @@ pip install pyserial
 
 **We open the Python IDLE** that was automatically installed alongside Python (or any other IDE) :
 
-![[https://raw.githubusercontent.com/phileas-dev/python-escpos-guide/refs/heads/main/IDLEpng]]
+![python IDLE](https://raw.githubusercontent.com/phileas-dev/python-escpos-guide/refs/heads/main/IDLE.png)
 
 We create an **empty file** with `Ctrl + N`, in which we write a little test script as following :
 
@@ -124,7 +124,7 @@ python <path>\<file>.py
 
 If everything goes well, we should obtain a receipt like this :
 
-![[ticket.png]]
+![receipt](https://raw.githubusercontent.com/phileas-dev/python-escpos-guide/refs/heads/main/RECEIPT.png)
 
 > The **[complete listing](https://python-escpos.readthedocs.io/en/latest/api/escpos.html#escpos.escpos.Escpos)** of printing methods with python-escpos is available in the docs. We can look at the `set` method in particular, it is used to set many styling options.
 
